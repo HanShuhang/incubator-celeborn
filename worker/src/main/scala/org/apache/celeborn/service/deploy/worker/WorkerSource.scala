@@ -117,6 +117,7 @@ object WorkerSource {
   val READ_BUFFER_ALLOCATED_COUNT = "ReadBufferAllocatedCount"
   val CREDIT_STREAM_COUNT = "CreditStreamCount"
   val ACTIVE_MAP_PARTITION_COUNT = "ActiveMapPartitionCount"
+  val MEMORY_STATE = "MemoryState"
 
   // local device
   val DEVICE_OS_FREE_CAPACITY = "DeviceOSFreeBytes"

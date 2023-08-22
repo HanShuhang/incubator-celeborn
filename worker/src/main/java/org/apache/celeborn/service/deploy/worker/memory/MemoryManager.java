@@ -404,6 +404,10 @@ public class MemoryManager {
     return readBufferDispatcher.requestsLength();
   }
 
+  public int getMemoryState() {
+    return servingState.equals(ServingState.NONE_PAUSED) ? 0 : 1;
+  }
+
   public long getPausePushDataTime() {
     return pausePushDataTime;
   }
