@@ -389,7 +389,7 @@ public abstract class CelebornInputStream extends InputStream {
         logger.debug("Read peer {} for attempt {}.", location, attemptNumber);
       }
 
-      logger.debug("create reader for location {}", location);
+      logger.info("create reader for location {}", location);
 
       StorageInfo storageInfo = location.getStorageInfo();
       if (storageInfo.getType() == StorageInfo.Type.HDD
